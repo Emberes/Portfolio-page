@@ -2,6 +2,11 @@
 
 :root{
     --gradient: linear-gradient(45deg, #ff6b6b, #f8e71c);
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --primary-color: #bb86fc;
+    --secondary-color: #03dac6;
+    --border-color: #333;
 }
 
 *{
@@ -279,7 +284,7 @@ nav {
 
     .contact-h1{
         font-size: 3rem;
-        color: #333366;
+        color: black;
         margin: 10px;
         padding: 10px;
         text-align: center;
@@ -389,3 +394,80 @@ footer{
     width: 100%;
     text-align: center;
 }
+
+
+@media (prefers-color-scheme: dark) {
+
+
+    * {
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
+  
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: var(--text-color);
+    }
+  
+    p,
+    nav a,
+    .btn,
+    .footer {
+      color: var(--text-color);
+    }
+  
+    .logo {
+      filter: brightness(10) invert(1);
+      background:none
+    }
+      .gradient-name {
+        background: var(--gradient);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+  
+      nav {
+        background-color: var(--background-color);
+      }
+  
+      .hamburger {
+        color: var(--text-color);
+      }
+  
+      .profile-photo {
+        border-color: var(--border-color);
+      }
+  
+      .all-jobb-experience,
+      .projects {
+        background-color: var(--background-color);
+        color: var(--text-color);
+        border-bottom-color: var(--border-color);
+      }
+  
+      .project1,
+      .project2,
+      .project3,
+      .project4,
+      .project5,
+      .project6 {
+        background-color: #1e1e1e;
+        color: var(--text-color);
+      }
+  
+      .btn {
+        border-color: var(--secondary-color);
+        color: var(--secondary-color);
+      }
+      .contact, .contact-h1 {
+        color: var(--text-color);
+      }
+  
+      footer {
+        background-color: var(--background-color);
+        color: var(--text-color);
+      }
+    }

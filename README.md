@@ -23,3 +23,8 @@ Responsiv design innebär att en webbplats utseende anpassar sig efter användar
 - **CSS Grid**: Ett layoutsystem som gör det möjligt att skapa rutnätsbaserade layoutstrukturer anpassade för design.
 
 Genom dessa metoder kan utvecklare skapa webbplatser som är både funktionella och estetiska över ett brett spektrum av enheter och skärmstorlekar.
+
+## Sammanfattning
+Jag tycker att projektet har varit väldigt lärande och varit ansträngande på samma gång, har varit svårt att strukturera upp allt i HTML dokumenten och i CSS dokumentet. Har lärt mig att jag behöver ha fler css filer till olika saker som t.ex en egen css fil för endast desktop stylingen för att lättare kunna separera på alla element. Jag märker själv att jag brister på att skriva upp en egen to-do-list för att lättare kunna återgå till projektet men det är något som jag kommer ta med mig tills nästa projekt. Några andra brister som jag har märkt är att jag i efterhand har behövt lägga till fler `<article>` element och liknande då jag inte tänkt på det från början, vilket gjorde det rörigt att lägga till det i efterhand. 
+
+Tycker att några styrkor har varit att jag lyckats med alla sidor och alla länkar på ett snyggt sätt, samt att jag tycker att det blev snyggt med de små korrigeringar som jag gjorde från figma skissen.
