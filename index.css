@@ -419,8 +419,10 @@ footer{
     }
   
     .logo {
-      filter: brightness(10) invert(1);
-      background:none
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
     }
       .gradient-name {
         background: var(--gradient);
