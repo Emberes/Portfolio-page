@@ -64,7 +64,6 @@ h3{
 
 
 nav {
-        border: solid;
         display: flex;
         align-items: center;
         width: 100%;
@@ -96,14 +95,6 @@ nav {
         font-size: 1.2rem;
         padding: 10px;
     }
-
-    nav a:hover{
-        background-color: #f58ce5;
-        border-radius: 5px;
-    
-    }
-
-  
     .experience-work{
         display: flex;
         justify-content: space-between;
@@ -143,7 +134,6 @@ nav {
     }
 
     .home-page{
-        /* background-color: lightgray; */
         display: flex;
         align-items: flex-end;
     }
